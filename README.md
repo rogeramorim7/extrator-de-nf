@@ -24,7 +24,7 @@
 ## 📱 Demonstração da Aplicação
 
 <p align="center">
-<img src="" alt="https://github.com/rogeramorim7/extrator-de-nf/blob/main/assets/github.gif" width="700">
+<img src="" alt="image.png" width="700">
 </p>
 
 <h4 align="center">
