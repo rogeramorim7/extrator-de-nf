@@ -33,7 +33,7 @@
 
 ---
 
-## 🚀 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto é um **Extrator Inteligente de Tabelas de NF-e** desenvolvido em Python com Streamlit, destinado a automatizar a extração de dados de produtos de Notas Fiscais Eletrônicas em formato PDF e exportar diretamente para planilhas Excel.
 
@@ -49,27 +49,27 @@ Servir como **ferramenta de automação contábil** e peça de **portfólio prof
 
 ## ✨ Funcionalidades
 
-- [x] **📤 Upload Intuitivo de PDFs**
+- [x] **Upload Intuitivo de PDFs**
   - Interface drag-and-drop
   - Suporte a múltiplos formatos de NF-e
   - Validação automática de arquivos
 
-- [x] **🧠 Extração Inteligente Multi-Estratégia**
+- [x] **Extração Inteligente Multi-Estratégia**
   - **Tabula-py**: Extração primária (lattice + stream)
   - **Camelot**: Alternativa para PDFs estruturados
   - **OCR Tesseract**: Fallback para PDFs escaneados
 
-- [x] **📋 Visualização em Tempo Real**
+- [x] **Visualização em Tempo Real**
   - Preview das tabelas extraídas
   - Identificação automática de produtos
   - Filtragem por número de colunas (≥5)
 
-- [x] **📊 Exportação Profissional para Excel**
+- [x] **Exportação Profissional para Excel**
   - Formato .xlsx otimizado
   - Cabeçalhos estruturados
   - Download instantâneo
 
-- [x] **🔍 Verificação de Dependências**
+- [x] **Verificação de Dependências**
   - Status em tempo real na sidebar
   - Diagnóstico completo do ambiente
   - Instruções de correção integradas
@@ -84,7 +84,7 @@ Servir como **ferramenta de automação contábil** e peça de **portfólio prof
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 <table>
   <tr>
@@ -143,7 +143,7 @@ Servir como **ferramenta de automação contábil** e peça de **portfólio prof
 
 ## ⚙️ Como Executar o Projeto Localmente
 
-### 📋 Pré-requisitos
+### Pré-requisitos
 
 Certifique-se de ter as seguintes dependências instaladas:
 
@@ -152,7 +152,7 @@ Certifique-se de ter as seguintes dependências instaladas:
 - **Ghostscript** (para Camelot e Tabula-py)
 - **Tesseract OCR** (opcional, para funcionalidade OCR)
 
-### 🔧 Passo a Passo
+### Passo a Passo
 
 #### 1. Clonar o Repositório
 
@@ -247,7 +247,7 @@ extrator-nf-streamlit/
 
 ---
 
-## 🎯 Casos de Uso
+## Casos de Uso
 
 - **Contabilidade**: Automatização da entrada de dados fiscais
 - **Procurement**: Análise rápida de fornecedores e produtos  
