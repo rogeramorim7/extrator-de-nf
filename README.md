@@ -24,7 +24,7 @@
 ## 📱 Demonstração da Aplicação
 
 <p align="center">
-<img src="" alt="https://github.com/rogeramorim7/extrator-de-nf/blob/main/image.png" width="700">
+<img src="assets/github.gif" alt="Demonstração do Extrator de NF-e" width="700">
 </p>
 
 <h4 align="center">
@@ -74,13 +74,13 @@ Servir como **ferramenta de automação contábil** e peça de **portfólio prof
   - Diagnóstico completo do ambiente
   - Instruções de correção integradas
 
-### 📋 Resumo das Estratégias de Extração
+### Resumo das Estratégias de Extração
 
 | Método | Base de Processamento | Casos de Uso | Status |
 |:---:|:---:|:---:|:---:|
-| **🔲 Tabula-py** | Java + Ghostscript | PDFs estruturados com tabelas | ✅ Implementado |
-| **📊 Camelot** | Ghostscript + OpenCV | PDFs com bordas bem definidas | ✅ Implementado |
-| **👁️ OCR Tesseract** | Reconhecimento Óptico | PDFs escaneados/baixa qualidade | ✅ Implementado |
+| **Tabula-py** | Java + Ghostscript | PDFs estruturados com tabelas | ✅ Implementado |
+| **Camelot** | Ghostscript + OpenCV | PDFs com bordas bem definidas | ✅ Implementado |
+| **OCR Tesseract** | Reconhecimento Óptico | PDFs escaneados/baixa qualidade | ✅ Implementado |
 
 ---
 
@@ -154,7 +154,7 @@ Certifique-se de ter as seguintes dependências instaladas:
 
 ### 🔧 Passo a Passo
 
-#### 1. 📥 Clonar o Repositório
+#### 1. Clonar o Repositório
 
 ```bash
 # Clone este repositório
@@ -164,7 +164,7 @@ git clone https://github.com/seu-usuario/extrator-nf-streamlit.git
 cd extrator-nf-streamlit
 ```
 
-#### 2. 🌐 Configurar o Ambiente Virtual
+#### 2. Configurar o Ambiente Virtual
 
 ```bash
 # Crie o ambiente virtual
@@ -178,14 +178,14 @@ source venv/bin/activate
 .\venv\Scripts\activate
 ```
 
-#### 3. 📦 Instalar as Dependências Python
+#### 3. Instalar as Dependências Python
 
 ```bash
 # Instale as dependências
 pip install streamlit pandas tabula-py xlsxwriter camelot-py[cv] PyMuPDF pytesseract pillow
 ```
 
-#### 4. 🔧 Instalar Dependências do Sistema
+#### 4. Instalar Dependências do Sistema
 
 ##### Java (Obrigatório)
 - **Windows**: [Adoptium OpenJDK](https://adoptium.net/)
@@ -202,7 +202,7 @@ pip install streamlit pandas tabula-py xlsxwriter camelot-py[cv] PyMuPDF pytesse
 - **Linux**: `sudo apt-get install tesseract-ocr tesseract-ocr-por`
 - **macOS**: `brew install tesseract`
 
-#### 5. 🚀 Executar a Aplicação
+#### 5. Executar a Aplicação
 
 ```bash
 # Execute o aplicativo principal
@@ -235,10 +235,10 @@ tesseract --version
 
 ```
 extrator-nf-streamlit/
-├── 📱 app.py                    # Aplicação principal Streamlit
-├── 🎮 run_app.py               # Script de execução com configurações
-├── 📋 requirements.txt         # Dependências Python
-├── 📖 README.md               # Documentação do projeto
+├── app.py                    # Aplicação principal Streamlit
+├── run_app.py               # Script de execução com configurações
+├── requirements.txt         # Dependências Python
+├── README.md               # Documentação do projeto
 ├── 📁 assets/                 # Recursos visuais
 │   └── 🎬 demo-nf-extractor.gif
 └── 📁 docs/                   # Documentação adicional
@@ -249,11 +249,11 @@ extrator-nf-streamlit/
 
 ## 🎯 Casos de Uso
 
-- **📊 Contabilidade**: Automatização da entrada de dados fiscais
-- **🛒 Procurement**: Análise rápida de fornecedores e produtos  
-- **🔍 Auditoria**: Verificação e compilação de documentos fiscais
-- **📈 Gestão**: Consolidação de dados para relatórios gerenciais
-- **⚡ Automação**: Redução de trabalho manual repetitivo
+- **Contabilidade**: Automatização da entrada de dados fiscais
+- **Procurement**: Análise rápida de fornecedores e produtos  
+- **Auditoria**: Verificação e compilação de documentos fiscais
+- **Gestão**: Consolidação de dados para relatórios gerenciais
+- **Automação**: Redução de trabalho manual repetitivo
 
 ---
 
@@ -261,7 +261,7 @@ extrator-nf-streamlit/
 
 <div align="center">
 
-> ### 🔒 **Importante**: Disclaimer Técnico
+> ### **Importante**: Disclaimer Técnico
 > 
 > Este projeto foi desenvolvido para **fins de automação e portfólio**.  
 > A precisão da extração depende da **qualidade e estrutura do PDF original**.
@@ -282,28 +282,28 @@ extrator-nf-streamlit/
 
 ```mermaid
 graph TD
-    A[✅ Versão 1.0 - Atual] --> B[⏳ Versão 1.1 - Próxima]
-    B --> C[🔮 Versão 2.0 - Futura]
+    A[✅ Versão 1.0 - Atual] --> B[Versão 1.1 - Próxima]
+    B --> C[Versão 2.0 - Futura]
     
     A --> A1[✅ Extração Multi-Estratégia]
     A --> A2[✅ Interface Streamlit] 
     A --> A3[✅ Exportação Excel]
     A --> A4[✅ Verificação Dependências]
     
-    B --> B1[⏳ Processamento em Lote]
-    B --> B2[⏳ Histórico de Extrações]
-    B --> B3[⏳ Melhorias na UI/UX]
-    B --> B4[⏳ Filtros Avançados]
+    B --> B1[Processamento em Lote]
+    B --> B2[Histórico de Extrações]
+    B --> B3[Melhorias na UI/UX]
+    B --> B4[ Filtros Avançados]
     
-    C --> C1[🔮 API REST]
-    C --> C2[🔮 Machine Learning]
-    C --> C3[🔮 Dashboard Analytics]
-    C --> C4[🔮 Integração Nuvem]
+    C --> C1[API REST]
+    C --> C2[Machine Learning]
+    C --> C3[Dashboard Analytics]
+    C --> C4[Integração Nuvem]
 ```
 
 ---
 
-## 🔧 Solução de Problemas
+## Solução de Problemas
 
 ### Problemas Comuns
 
@@ -315,7 +315,7 @@ graph TD
 | ❌ Extração vazia | PDF sem tabelas estruturadas | Verificar qualidade do PDF |
 | ❌ Erro de dependências Python | Bibliotecas não instaladas | `pip install -r requirements.txt` |
 
-### 🆘 Precisa de Ajuda?
+### Precisa de Ajuda?
 
 1. Verifique a **sidebar** da aplicação para status das dependências
 2. Execute os **comandos de verificação** mencionados acima
@@ -328,41 +328,41 @@ graph TD
 
 Contribuições são sempre bem-vindas! Se você tem sugestões para melhorar este projeto:
 
-1. 🍴 Faça um **Fork** do projeto
-2. 🌿 Crie uma **Branch** para sua feature (`git checkout -b feature/AmazingFeature`)
-3. 💾 **Commit** suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. 📤 **Push** para a Branch (`git push origin feature/AmazingFeature`)
-5. 🔄 Abra um **Pull Request**
+1. Faça um **Fork** do projeto
+2. Crie uma **Branch** para sua feature (`git checkout -b feature/AmazingFeature`)
+3. **Commit** suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. **Push** para a Branch (`git push origin feature/AmazingFeature`)
+5. Abra um **Pull Request**
 
-### 💡 Ideias de Contribuição
+### Ideias de Contribuição
 
-- 📊 Melhorias na interface do usuário
-- 🤖 Novos algoritmos de extração  
-- 🔧 Otimizações de performance
-- 📚 Melhorias na documentação
-- 🧪 Testes automatizados
+- Melhorias na interface do usuário
+- Novos algoritmos de extração  
+- Otimizações de performance
+- Melhorias na documentação
+- Testes automatizados
 
 ---
 
-## 📞 Contato
+## Contato
 
 <div align="center">
 
 ### 🤝 Vamos nos Conectar?
 
-  <a href="https://www.linkedin.com/in/seu-perfil/" target="_blank">
+  <a href="https://www.linkedin.com/in/roger-de-amorim-300a14307" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   
-  <a href="https://github.com/seu-usuario" target="_blank">
+  <a href="https://github.com/rogeramorim7" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
   
-  <a href="https://www.instagram.com/seu-instagram/" target="_blank">
+  <a href="https://www.instagram.com/rogerdeamorim_/" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
   </a>
   
-  <a href="mailto:seu-email@example.com">
+  <a href="mailto:roger.amorim07@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 
@@ -374,25 +374,25 @@ Contribuições são sempre bem-vindas! Se você tem sugestões para melhorar es
 
 <div align="center">
   
-  ### 🌟 Gostou do projeto?
+  ### Gostou do projeto?
   
   Se este projeto foi útil para você, considere deixar uma ⭐!
   
-  <a href="https://github.com/seu-usuario/extrator-nf-streamlit">
+  <a href="https://github.com/rogeramorim7/extrator-nf">
     <img src="https://img.shields.io/badge/⭐-Deixe%20uma%20Estrela-yellow?style=for-the-badge" alt="Star">
   </a>
   
-  <a href="https://github.com/seu-usuario/extrator-nf-streamlit/fork">
+  <a href="https://github.com/rogeramorim7/extrator-nf/fork">
     <img src="https://img.shields.io/badge/🍴-Fork%20o%20Projeto-orange?style=for-the-badge" alt="Fork">
   </a>
   
-  <a href="https://github.com/seu-usuario/extrator-nf-streamlit/issues">
+  <a href="https://github.com/rogeramorim7/extrator-nf/issues">
     <img src="https://img.shields.io/badge/🐛-Reportar%20Bug-red?style=for-the-badge" alt="Issues">
   </a>
   
   ---
   
-  <sub>Feito com ❤️ por <a href="https://github.com/seu-usuario">Seu Nome</a></sub>
+  <sub>Feito por <a href="https://github.com/rogeramorim7">Roger</a></sub>
   
   <sub>Este projeto representa a união entre automação inteligente e desenvolvimento moderno em Python, demonstrando como tecnologia pode otimizar processos contábeis e fiscais.</sub>
   
